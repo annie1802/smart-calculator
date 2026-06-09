@@ -1,4 +1,4 @@
-print("🔢 Welcome to Smart Calculator")
+print("Welcome to Smart Calculator")
 
 while True:
     print("\nChoose operation:")
@@ -11,11 +11,11 @@ while True:
     choice = input("Enter choice (1-5): ")
 
     if choice == '5':
-        print("👋 Exiting calculator. Bye!")
+        print(" Exiting calculator. Bye!")
         break
 
     if choice not in ['1', '2', '3', '4']:
-        print("❌ Invalid choice")
+        print(" Invalid choice")
         continue
 
     num1 = float(input("Enter first number: "))
@@ -32,6 +32,6 @@ while True:
 
     elif choice == '4':
         if num2 == 0:
-            print("❌ Cannot divide by zero")
+            print(" Cannot divide by zero")
         else:
             print("Result:", num1 / num2)
